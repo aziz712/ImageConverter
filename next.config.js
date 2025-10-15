@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Keep image optimization disabled for static export, but prefer modern formats
-  images: { unoptimized: true, formats: ['image/avif', 'image/webp'] },
+  // Prefer modern formats for image optimization
+  images: { formats: ['image/avif', 'image/webp'] },
   // Ensure SWC minification and modern externals for reduced legacy JS
   swcMinify: true,
   experimental: {
