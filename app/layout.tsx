@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Toaster } from '@/components/ui/sonner';
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ['latin', 'latin-ext'], display: 'swap' });
 
