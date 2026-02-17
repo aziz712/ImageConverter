@@ -20,12 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
        <head>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6058601145704080"
-          strategy="afterInteractive"
-          crossOrigin="anonymous"
-        />
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6058601145704080"
+     crossorigin="anonymous"></script>
       </head>
       <body className={inter.className}>
         {children}
