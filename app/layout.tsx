@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ['latin', 'latin-ext'], display: 'swap' });
 export const metadata: Metadata = {
   title: 'ImageConvertly - Fast & Free Image Converter',
   description: 'Convert images between formats with ease. Support for JPG, PNG, WEBP, AVIF, GIF, BMP, TIFF and more. Fast, secure, and completely free.',
+  other: {
+    "google-adsense-account": "ca-pub-6058601145704080",
+  },
 };
 
 export default function RootLayout({
